@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="calc.css">
+
+</head>
+<body>
+	<div class="calc">
+		<h2>Calculadora</h2>
+		<form method="POST" action="app.php">
+			<div><input type="number" name="valor1" placeholder="Valor 1"></div>
+			<div><input type="number" name="valor2" placeholder="Valor 2"></div>
+			<br>
+			<label>Escolha a operação:</label>
+			<br>
+			<select name="operacao">
+				<option value="soma">Somar</option>
+				<option value="subtrair">Subtração</option>
+				<option value="dividir">Dividir</option>
+				<option value="multiplicar">Multiplicar</option>
+			</select>
+			<div><input type="submit" name="acao" value="Calcular"></div>
+		</form>
+		
+
+	</div>
+
+</body>
+</html>
