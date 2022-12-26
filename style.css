@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.frame{
+	width: 100%;
+	max-width: 300px;
+	padding: 10px;
+	background-color: silver;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+}
